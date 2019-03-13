@@ -7,6 +7,12 @@ h1 {
 h2 {
     text-align: center;
 }
+form {
+    margin-left: 450px;
+}
+input {
+    width: 300px;
+}
 .button-positioning {
     margin-left: 50px;
 }
