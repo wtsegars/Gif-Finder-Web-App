@@ -1,5 +1,6 @@
 $('button').on('click', () => {
     var person = $(this).attr('data-person');
+    
 
     var giphyUrl = "https://api.giphy.com/v1/gifs/search?q=" + person + "&api_key=oGdqz9lhb8Gna1H0BfErSk2D3JPTCwRs&limit=15";
 
