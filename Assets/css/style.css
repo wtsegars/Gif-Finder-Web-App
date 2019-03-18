@@ -16,3 +16,30 @@ input {
 .button-positioning {
     margin-left: 50px;
 }
+#gifs-position {
+    margin-left: 400px;
+}
+@media screen and (max-width: 768px) {
+    form {
+        margin-left: 300px;
+    }
+    #gifs-position {
+        margin-left: 250px;
+    }
+}
+@media screen and (max-width: 667px) {
+    form {
+        margin-left: 150px;
+    }
+    #gifs-postition {
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 320px) {
+    form {
+        margin-left: 5px;
+    }
+    #gifs-position {
+        margin-left: -25px;
+    }
+}
